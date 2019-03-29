@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.aoge.skillexchange.FirstLoginActivity">
-    
+
     <com.example.aoge.skillexchange.CircleImageButton
         android:id="@+id/img_headportrait"
         android:layout_width="80dp"
@@ -72,9 +72,9 @@
         android:id="@+id/txt_can"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
         android:text="You can:"
         android:textSize="20sp"
         app:layout_constraintHorizontal_bias="0.61"
@@ -85,14 +85,12 @@
 
     <EditText
         android:id="@+id/edt_can"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="480dp"
+        android:layout_height="50dp"
         android:layout_marginTop="140dp"
 
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
         android:background="@drawable/editsharp"
-        android:hint=" enter your skills"
+        android:hint="123"
         android:inputType="textEmailAddress"
         android:maxLength="70"
         android:padding="8dp"
@@ -108,28 +106,27 @@
     <TextView
         android:id="@+id/txt_want"
         android:layout_width="wrap_content"
-        android:layout_height="22dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
         android:text="You want:"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@id/btnjoinus"
-        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/edt_want"
-        app:layout_constraintTop_toBottomOf="@id/txt_can" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_can" />
 
     <EditText
         android:id="@+id/edt_want"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="480dp"
+        android:layout_height="50dp"
         android:layout_marginTop="8dp"
 
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/editsharp"
-        android:hint=" enter what you want to learn"
+        android:hint="123"
         android:imeOptions="actionNext"
         android:inputType="textEmailAddress"
         android:maxLength="70"
@@ -143,7 +140,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_can"
-        app:layout_constraintVertical_bias="0.508" />
+        app:layout_constraintVertical_bias="0.584" />
 
     <Button
         android:id="@+id/btnjoinus"
