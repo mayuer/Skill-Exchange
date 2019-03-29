@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.aoge.skillexchange.FirstLoginActivity">
 
+    
     <com.example.aoge.skillexchange.CircleImageButton
         android:id="@+id/img_headportrait"
         android:layout_width="80dp"
